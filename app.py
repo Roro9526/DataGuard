@@ -9,7 +9,7 @@ from src.model import detect_anomalies
 # 1. Page Configuration & Custom CSS
 # -----------------------------------------------------------------------------
 st.set_page_config(
-    page_title="DataGuard Pro",
+    page_title="DataGuard",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -85,7 +85,7 @@ if df.empty:
 # --- SIDEBAR ---
 with st.sidebar:
     st.image("https://img.icons8.com/color/96/data-shield.png", width=60)
-    st.title("DataGuard Pro")
+    st.title("DataGuard")
     st.markdown("---")
     
     # 1. Store Selector
